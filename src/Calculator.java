@@ -48,5 +48,11 @@ public class Calculator
     }
 
     // method to find cube
+    int cube()
+    {
+        return input_nums[0] * input_nums[0] * input_nums[0];
+    }
+
+    // method to find square root
 
 }
