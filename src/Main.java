@@ -48,6 +48,44 @@ public class Main
                 // New Calculator object
                 Calculator calculator = new Calculator();
 
+                switch (choice)
+                {
+                    case 1:
+                        // Case for Addition of two numbers
+                        System.out.println("Result: " + calculator.addition());
+                        break;
+
+                    case 2:
+                        // Case for Subtraction of two numbers
+                        System.out.println("Result: " + calculator.subtraction());
+                        break;
+
+                    case 3:
+                        // Case for Multiplication of two numbers
+                        System.out.println("Result: " + calculator.multiplication());
+                        break;
+
+                    case 4:
+                        // Case for Division of two numbers
+                        System.out.println("Result: " + calculator.division());
+                        break;
+
+                    case 5:
+                        // Case for Square of num1
+                        System.out.println("Result: " + calculator.square());
+                        break;
+
+                    case 6:
+                        // Case for Cube of num1
+                        System.out.println("Result: " + calculator.cube());
+                        break;
+
+                    case 7:
+                        // Case for Square Root of num1
+                        System.out.println("Result: " + calculator.sqrt());
+                        break;
+                }
+            }
 
         }
     }
